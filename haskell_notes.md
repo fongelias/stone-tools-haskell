@@ -13,3 +13,9 @@ ghci
 :l [function name]
 ## Check the type of an expression
 :t [expression]
+## Compile a file
+ghc --make [file name without extension]
+## Comments
+-- single line
+{- Multi line -}
+
